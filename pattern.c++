@@ -53,24 +53,48 @@ int main()
 
     // ##################################################
 
-    int i = 1;
+    //     int i = 1;
+    //     int n;
+    //     cin >> n;
+    //     int count = 1;
+
+    //     while (i <= n)
+    //     {
+
+    //         int j = 1;
+    //         while (j <= n)
+    //         {
+    //             cout<<count<<" ";
+    //             count++;
+    //             // cout << j; // this print no as 1 2 3 4 5
+
+    //             j++;
+    //         }
+    // cout<<endl;
+    //         i++;
+    //     }
+
+    // #########################################
+
+    int row = 1;
+
     int n;
     cin >> n;
-    int count = 1;
 
-    while (i <= n)
+    while (row <= n)
     {
 
-        int j = 1;
-        while (j <= n)
-        {
-            cout<<count<<" ";
-            count++;
-            // cout << j; // this print no as 1 2 3 4 5
+        int col = 1;
+        char ch = 'A';
 
-            j++;
+        while (col <= n)
+        {
+
+            cout << ch << " ";
+            ch++;
+            col++;
         }
-cout<<endl;
-        i++;
+        cout << endl;
+        row++;
     }
 }
