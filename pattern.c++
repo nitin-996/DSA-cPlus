@@ -76,25 +76,53 @@ int main()
 
     // #########################################
 
+    // int row = 1;
+
+    // int n;
+
+    // cin >> n;
+
+    // while (row <= n)
+    // {
+
+    //     int col = 1;
+    //     char ch = 'A';
+
+    //     while (col <= n)
+    //     {
+
+    //         cout << ch << " ";
+    //         ch++;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // #######################################################
+
     int row = 1;
 
     int n;
+
     cin >> n;
 
     while (row <= n)
     {
 
         int col = 1;
-        char ch = 'A';
+      int value= row;
 
         while (col <= n)
         {
 
-            cout << ch << " ";
-            ch++;
+            cout << value << " ";
+            value++;
             col++;
         }
         cout << endl;
         row++;
     }
+
+
 }
