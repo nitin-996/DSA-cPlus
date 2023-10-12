@@ -114,6 +114,6 @@ int main(){
     cin>>n>>r;
 
 cout<< nCr(n,r)<<endl;
-
+ 
 
 }
