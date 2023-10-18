@@ -53,26 +53,26 @@ int main()
 
     // ##################################################
 
-    //     int i = 1;
-    //     int n;
-    //     cin >> n;
-    //     int count = 1;
+        int i = 1;
+        int n;
+        cin >> n;
+        int count = 1; // initialize bcz it will prints the numbers.
 
-    //     while (i <= n)
-    //     {
+        while (i <= n) // this is for row
+        {
 
-    //         int j = 1;
-    //         while (j <= n)
-    //         {
-    //             cout<<count<<" ";
-    //             count++;
-    //             // cout << j; // this print no as 1 2 3 4 5
+            int j = 1; // this is for column
+            while (j <= n)
+            {
+                cout<<count<<" ";
+                count++;
+                // cout << j; // this print no as 1 2 3 4 5
 
-    //             j++;
-    //         }
-    // cout<<endl;
-    //         i++;
-    //     }
+                j++;
+            }
+    cout<<endl;
+            i++;
+        }
 
     // #########################################
 
@@ -101,28 +101,28 @@ int main()
 
     // #######################################################
 
-    int row = 1;
+//     int row = 1;
 
-    int n;
+//     int n;
 
-    cin >> n;
+//     cin >> n;
 
-    while (row <= n)
-    {
+//     while (row <= n)
+//     {
 
-        int col = 1;
-      int value= row;
+//         int col = 1;
+//       int value= row;
 
-        while (col <= n)
-        {
+//         while (col <= n)
+//         {
 
-            cout << value << " ";
-            value++;
-            col++;
-        }
-        cout << endl;
-        row++;
-    }
+//             cout << value << " ";
+//             value++;
+//             col++;
+//         }
+//         cout << endl;
+//         row++;
+//     }
 
 
-}
+ }
